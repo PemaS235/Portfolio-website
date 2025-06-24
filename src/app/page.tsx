@@ -289,7 +289,7 @@ export default function Portfolio() {
               <p className="text-lg text-gray-300 leading-relaxed">
                 I&apos;m a passionate full-stack developer with internship creating digital 
                 experiences that combine beautiful design with robust functionality. My journey started 
-                with a Computer Science degree and evolved through hands-on experience with cutting-edge technologies.
+                with a basic Computer Science  and evolved through hands-on experience with cutting-edge technologies.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 I specialize in React ecosystem, Node.js, and modern web technologies. I love solving 
