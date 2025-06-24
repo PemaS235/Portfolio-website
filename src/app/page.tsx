@@ -128,21 +128,21 @@ export default function Portfolio() {
 
   const experience = [
     {
-      title: "Senior Frontend Developer",
-      company: "Tech Innovations Inc.",
-      period: "2022 - Present",
+      title: " Frontend Developer",
+    
+      
       description: "Lead frontend development for web applications serving 100K+ users. Implemented modern React patterns and improved performance by 40%."
     },
     {
       title: "Full Stack Developer",
-      company: "Digital Solutions Ltd.",
-      period: "2020 - 2022",
+    
+    
       description: "Developed and maintained multiple client projects using React, Node.js, and various databases. Collaborated with design team to implement pixel-perfect UIs."
     },
     {
       title: "Junior Developer",
-      company: "StartUp Studio",
-      period: "2019 - 2020",
+    
+    
       description: "Built responsive web applications and contributed to open-source projects. Gained experience in agile development and version control."
     }
   ];
@@ -159,7 +159,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              &lt;Tshering yangden/&gt;
+              
             </div>
             
             {/* Desktop Navigation */}
@@ -287,7 +287,7 @@ export default function Portfolio() {
                 <h3 className="text-2xl font-semibold text-white">My Story</h3>
               </div>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I&apos;m a passionate full-stack developer with over 4 years of experience creating digital 
+                I&apos;m a passionate full-stack developer with internship creating digital 
                 experiences that combine beautiful design with robust functionality. My journey started 
                 with a Computer Science degree and evolved through hands-on experience with cutting-edge technologies.
               </p>
@@ -424,9 +424,9 @@ export default function Portfolio() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <div>
                     <h3 className="text-xl font-semibold text-white">{job.title}</h3>
-                    <p className="text-blue-400 font-medium">{job.company}</p>
+                    <p className="text-blue-400 font-medium"></p>
                   </div>
-                  <span className="text-gray-400 text-sm mt-2 md:mt-0">{job.period}</span>
+                  <span className="text-gray-400 text-sm mt-2 md:mt-0"></span>
                 </div>
                 <p className="text-gray-300 leading-relaxed">{job.description}</p>
               </div>
